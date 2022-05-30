@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Raleway:wght@200&family=Roboto:wght@100;300&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(230, 255, 251, 0.774);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #555;
+    -webkit-font-smothing: antialiased;
+    -webkit-owerflow-scrolling: touch;
+    margin-top: 0px;
+    height: 3000px;
+    width: 1680px;
+
+}
+
+h1,
+h3,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #333;
+
+}
+
+p {
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #f85c37;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+.collapse navbar-collapse {
+    margin-left: 1000px;
+
+}
+
+.logo {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.mb-2 {
+    margin-left: 700px;
+}
+
+.btn-group {
+
+    margin: 0 6px;
+    word-wrap: break-word;
+
+}
+
+.dropdown-item {
+    flex: 10 10 auto;
+    margin: 0 10px;
+    width: auto;
+    align-items: left;
+
+}
+
+.dropdown-menu show {
+    width: 150px;
+    word-wrap: break-word;
+}
+
+.video {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.about_we {
+    align-items: center;
+}
+
+.ourdes {
+
+    height: 1307px;
+    width: 1680px;
+    background-color: rgba(230, 255, 251, 0.774);
+}
+
+.ourdes-font {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 1307px;
+    width: 1680px;
+}
+
+.our {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.group1 {
+    display: flex;
+    flex-flow: column;
+    height: 243px;
+    width: 705px;
+    margin-left: 80px;
+    margin-top: 100px
+}
+
+.our1 {
+
+    padding-top: 0px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 0px;
+    width: 400px;
+    height: 243px;
+
+}
+
+.ul {
+    margin-left: -20px;
+    text-align: top;
+    width: 243px;
+}
+
+.h2,
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.h4,
+h4 {
+    width: 420px;
+    font-size: calc(1.275rem + .3vw);
+}
+
+button.new {
+    background-color: rgb(255, 255, 255);
+    padding: 3px 7px;
+    color: rgb(24, 160, 251);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(24, 160, 251);
+    width: 130px;
+    height: 40px;
+}
+
+.child {
+    margin-left: 411px;
+    margin-top: -229px;
+    height: 230px;
+
+}
+
+.group3 {
+    display: flex;
+    flex-flow: column;
+    height: 243px;
+    width: 705px;
+    margin-left: 80px;
+    margin-top: 100px
+}
+
+.group2 {
+    display: flex;
+    flex-flow: column;
+    height: 280px;
+    width: 705px;
+    margin-left: 80px;
+    margin-top: 0px
+}
+
+.group4 {
+    display: flex;
+    flex-flow: column;
+    height: 243px;
+    width: 705px;
+    margin-left: 80px;
+    margin-top: 0px
+}
+
+.group5 {
+    display: flex;
+    flex-flow: column;
+    height: 243px;
+    width: 705px;
+    margin-left: 80px;
+    margin-top: 0px
+}
+
+.probnoe {
+    width: 1680px;
+    height: 600px;
+    margin-top: 50px;
+
+}
+
+.content-prob {
+    height: 500px;
+    width: 50%;
+    left: 60px;
+    top: 30px;
+    position: relative
+    
+}
+
+
+.content-prob h3 {
+    width: 250px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+.content-prob h4 {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 23%;
+    left: 10%;
+    width: 622px;
+}
+.content-prob-img{
+   top: -450px;
+   left: 1000px;
+    height: 500px;
+    width: 50%;
+    position: relative
+}
+.content-prob-img img{
+   height: 380px;   
+   width: 480px;
+ }
+ .footer{
+     width: 1680px;
+     height: 344px;
+     background-color: #17a2b8;
+ }
+
+ .footer h4{
+     top: 121px;
+     left: 779px;
+     position: relative;
+     font-weight: bold;
+ }
+ hr{
+   
+    background-color: rgb(0, 0, 0); /* Цвет линии */
+    color: rgb(0, 0, 0); /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+    width: 1000px;
+   left: 350px;
+   top: 40%;
+    position: relative;
+ }
